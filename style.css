@@ -1,0 +1,79 @@
+/* ================= Geral ============== */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --bg-color: hsla(270, 50%, 73%, 0.08);
+  --button-color: hsl(270, 80%, 85%);
+  --border-color: hsl(270, 50%, 73%);
+  font-size: 62.5%;
+}
+
+body{
+  font-family: 'Poppins';
+  font-size: 1.6rem;
+  background: var(--bg-color);
+}
+
+a{
+  text-decoration: none;
+}
+
+/* ================= Header ============== */
+header img{
+  border-radius: 50%;
+  border: 5px double var(--border-color);
+  display: block;
+  margin: auto; 
+  margin-top: 12.6rem;
+}
+
+header p{
+  padding-top: 2.2rem;
+  text-align: center;
+}
+
+/* ================= Links ============== */
+#links {
+  color: Black;
+  padding-top: 3.3rem;
+}
+
+.link{
+  padding-bottom: 1.6rem;
+  text-transform: uppercase;
+}
+
+#links .link {
+  display: flex;
+  justify-content: center;
+  border: 2px solid var(--border-color);
+  width: 32.6rem;
+  margin: 1.6rem auto;
+  padding: 1.225rem 0;
+ border-radius: 4px;
+ font-weight: 600;
+ transition: 300ms;
+}
+
+.link:hover{
+  background-color: var(--button-color);
+}
+
+
+/* ================= Footer ============== */
+#footer{
+  display: flex;
+  justify-content: center;
+  gap: 2.9rem;
+  width: 23.6rem;
+  margin: auto;
+}
+footer>a>img{
+  padding-top: 6.8rem;
+  padding-bottom: 15.5rem;
+}
